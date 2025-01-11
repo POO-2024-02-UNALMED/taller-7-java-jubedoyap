@@ -59,6 +59,6 @@ public class Libro extends Escrito {
 	@Override
 	public String toString() {
 		
-		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + co_autor + "\n" + editorial +  "\n" + edicion + "\n" + interpretacion;
+		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + co_autor + "\n" + editorial +  "\n" + edicion;
 	}
 }
